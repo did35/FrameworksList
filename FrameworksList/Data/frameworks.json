@@ -72,6 +72,30 @@
         "primaryUseCases": "Audio and video playback, recording, editing."
     },
     {
+        "framework": "CoreAudio",
+        "platform": "iOS 2.2+, macOS 10.0+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 3.0+, visionOS 1.0+",
+        "description": "Framework for audio processing and playback.",
+        "primaryUseCases": "Use the Core Audio framework to interact with device’s audio hardware."
+    },
+    {
+        "framework": "WebKit",
+        "platform": "iOS 16.0+, macOS 10.2+, Mac Catalyst 13.0+, visionOS 1.0+",
+        "description": "Framework for embedding web content.",
+        "primaryUseCases": "Embedding web views, browsing, and interacting with web content."
+    },
+    {
+        "framework": "CoreLocation",
+        "platform": "iOS 2.2+, macOS 10.6+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework for accesing location based information.",
+        "primaryUseCases": "Location tracking, geofencing, and map integration."
+    },
+    {
+        "framework": "MapKit",
+        "platform": "iOS 3.0+, macOS 10.9+, Mac Catalyst 13.0+, tvOS 9.2+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework for embedding maps and handling map related data.",
+        "primaryUseCases": "Displaying maps, annotations, and overlays."
+    },
+    {
         "framework": "",
         "platform": "",
         "description": "",
