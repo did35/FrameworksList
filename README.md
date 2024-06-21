@@ -158,3 +158,9 @@ Overview of various Apple frameworks used in iOS, macOS, Mac Catalyst, tvOS, wat
 - **Platform**: iOS, macOS
 - **Description**: Framework for in-app purchases and subscriptions.
 - **Use Cases**: Selling digital goods, subscriptions, and managing transactions.
+
+## Screenshots
+<img src="https://github.com/did35/FrameworksList/assets/17040667/ea687cd9-803f-42ae-a99a-38402874ac6a" width="300"> &nbsp;&nbsp;&nbsp;&nbsp;
+<img src="https://github.com/did35/FrameworksList/assets/17040667/ed4d78b4-85b3-4932-a87d-d4ec4b8e3287" width="300">
+  
+
