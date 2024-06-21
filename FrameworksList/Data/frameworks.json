@@ -1,0 +1,80 @@
+[
+    {
+        "framework": "Foundation",
+        "platform": "iOS 2.0+, macOS 10.0+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Core framework providing essential data types, collections, and system services",
+        "primaryUseCases": "String, Array, Dictionaries, Dates, File Manager, etc."
+    },
+    {
+        "framework": "AppKit",
+        "platform": "macOS 10.0+, Mac Catalyst 13.0+",
+        "description": "GUI framework for macOS applications.",
+        "primaryUseCases": "Windows, Views, Controls, Menus, Panels, Event Handling."
+    },
+    {
+        "framework": "UIKit",
+        "platform": "iOS 2.0+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "GUI framework for iOS applications.",
+        "primaryUseCases": "Touch-based interfaces, Views, Controls, Navigation, Gestures."
+    },
+    {
+        "framework": "Cocoa",
+        "platform": "Both",
+        "description": "Suite of object-oriented frameworks that provides  a runtime environment for applications.",
+        "primaryUseCases": "Building applications with integrated Foundation and GUI components (AppKit for macOS, UIKit for iOS)."
+    },
+    {
+        "framework": "SwiftUI",
+        "platform": "iOS 13.0+, macOS 10.15+, Mac Catalyst 13.0+, tvOS 13.0+, watchOS 6.0+, visionOS 1.0+",
+        "description": "Modern declarative framework for building user interfaces across all Apple platforms.",
+        "primaryUseCases": "Building UI's with declarative syntax, cross-platform compatibility."
+    },
+    {
+        "framework": "Combine",
+        "platform": "iOS 13.0+, macOS 10.15+, Mac Catalyst 13.0+, tvOS 13.0+, watchOS 6.0+, visionOS 1.0+",
+        "description": "Framework for handling asynchronous events by combining event-processing operators.",
+        "primaryUseCases": "Reactive programming, handling asynchronous data streams, and binding data to UI elements."
+    },
+    {
+        "framework": "CoreData",
+        "platform": "iOS 3.0+, macOS 10.15+, Mac Catalyst 13.0+, tvOS 13.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework for managing object graphs and persisting data to disk.",
+        "primaryUseCases": "Data modeling, persistence, object graph management."
+    },
+    {
+        "framework": "SwiftData",
+        "platform": "iOS 17.0+, macOS 14.0+, Mac Catalyst 17.0+, tvOS 17.0+, watchOS 10.0+, visionOS 1.0+",
+        "description": "Modern Swift-based framework for data persistence and management, designed to simplify CoreData usage.",
+        "primaryUseCases": "Simplifying data modeling and persistence with a Swift-native API."
+    },
+    {
+        "framework": "Core Animation (QuartzCore)",
+        "platform": "iOS 2.0+, macOS 10.3+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework for creating sophisticated animations and visual effects.",
+        "primaryUseCases": "Animation, visual effects, transitions."
+    },
+    {
+        "framework": "CoreGraphics",
+        "platform": "iOS 2.0+, macOS 10.8+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework providing 2D drawing and rendering capabilities.",
+        "primaryUseCases": "2D graphics, image rendering, PDF generation."
+    },
+    {
+        "framework": "CoreImage",
+        "platform": "iOS 5.0+, macOS 10.11+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework for image processing and analysis.",
+        "primaryUseCases": "Image filtering, manipulation, and analysis."
+    },
+    {
+        "framework": "AVFoundation",
+        "platform": "iOS 2.2+, macOS 10.7+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 3.0+, visionOS 1.0+",
+        "description": "Framework for working with audiovisual media.",
+        "primaryUseCases": "Audio and video playback, recording, editing."
+    },
+    {
+        "framework": "",
+        "platform": "",
+        "description": "",
+        "primaryUseCases": ""
+    }
+]
