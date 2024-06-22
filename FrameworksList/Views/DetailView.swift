@@ -23,7 +23,7 @@ struct DetailView: View {
                 .shadow(color: Color.black.opacity(0.8), radius: 20, x: 0, y: 0)
                 .frame(height: 400)
                 .padding()
-                .overlay (
+                .overlay {
                     GroupBox(label: Label("\(framework ?? "Framework")", systemImage: "building.columns")) {
                         ScrollView {
                             if let platform = platform, let description = description, let primaryUseCases = primaryUseCases {
@@ -45,7 +45,7 @@ struct DetailView: View {
                         .frame(height: 310)
                         .padding()
                     }
-                )
+                }
             .padding()
         }
     }
