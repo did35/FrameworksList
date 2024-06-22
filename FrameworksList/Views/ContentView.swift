@@ -26,7 +26,6 @@ struct ContentView: View {
                     }
                 }
                 .listStyle(.plain)
-                //.foregroundColor(.blue)
                 .font(.headline)
                 .navigationTitle("Frameworks")
             }

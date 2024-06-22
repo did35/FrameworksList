@@ -20,33 +20,34 @@ struct DetailView: View {
             LinearGradient(colors: [.pink, .cyan, .blue], startPoint: .topLeading, endPoint: .bottomTrailing).ignoresSafeArea()
             RoundedRectangle(cornerRadius: 8) // Adjust corner radius as needed
                 .fill(Color.white) // Match GroupBox background color
-                .shadow(color: Color.black.opacity(0.8), radius: 10, x: 0, y: 0)
+                .shadow(color: Color.black.opacity(0.8), radius: 20, x: 0, y: 0)
                 .frame(height: 400)
                 .padding()
-            GroupBox(label: Label("\(framework ?? "Framework")", systemImage: "building.columns")) {
-                ScrollView {
-                    if let platform = platform, let description = description, let primaryUseCases = primaryUseCases {
-                        HStack {
-                            VStack(alignment: .leading, spacing: 20) {
-                                Text("Platform:\n\(platform)")
-                                Text("Description:\n\(description)")
-                                Text("Use cases:\n\(primaryUseCases)")
+                .overlay (
+                    GroupBox(label: Label("\(framework ?? "Framework")", systemImage: "building.columns")) {
+                        ScrollView {
+                            if let platform = platform, let description = description, let primaryUseCases = primaryUseCases {
+                                HStack {
+                                    VStack(alignment: .leading, spacing: 20) {
+                                        Text("Platform:\n\(platform)")
+                                        Text("Description:\n\(description)")
+                                        Text("Use cases:\n\(primaryUseCases)")
+                                    }
+                                    .font(.headline)
+                                    Spacer()
+                                }
+                            } else {
+                                Text("Unable to display data!")
+                                    .foregroundColor(.red)
+                                    .font(.title2)
                             }
-                            .font(.headline)
-                            Spacer()
                         }
-                    } else {
-                        Text("Unable to display data!")
-                            .foregroundColor(.red)
-                            .font(.title2)
+                        .frame(height: 310)
+                        .padding()
                     }
-                }
-                .frame(height: 310)
-                .padding()
-            }
+                )
             .padding()
         }
-
     }
 }
 

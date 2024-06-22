@@ -96,9 +96,93 @@
         "primaryUseCases": "Displaying maps, annotations, and overlays."
     },
     {
-        "framework": "",
-        "platform": "",
-        "description": "",
-        "primaryUseCases": ""
+        "framework": "HealthKit",
+        "platform": "iOS 8.0+, macOS 14.0+, Mac Catalyst 17.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework for managing health related data.",
+        "primaryUseCases": "Storing and accessing health data, integrating with Health app."
+    },
+    {
+        "framework": "GameKit",
+        "platform": "iOS 3.0+, macOS 10.8+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 3.0+, visionOS 1.0+",
+        "description": "Framework for game development, including social gaming features.",
+        "primaryUseCases": "Leaderboards, achievements, multiplayer gaming."
+    },
+    {
+        "framework": "SpriteKit",
+        "platform": "iOS 7.0+, macOS 10.9+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 10.0+, visionOS 1.0+",
+        "description": "Framework for 2D game development.",
+        "primaryUseCases": "2D games, animations, and physics based interactions."
+    },
+    {
+        "framework": "SceneKit",
+        "platform": "iOS 8.0+, macOS 10.8+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 3.0+, visionOS 1.0+",
+        "description": "Framework for 3D game development rendering.",
+        "primaryUseCases": "3D games, simulations, and visualizations."
+    },
+    {
+        "framework": "Metal",
+        "platform": "iOS 8.0+, macOS 10.11+, Mac Catalyst 13.0+, tvOS 9.0+, visionOS 1.0+",
+        "description": "Framework for low level graphics and compute programming.",
+        "primaryUseCases": "High performance graphics rendering, GPU accelerated tasks."
+    },
+    {
+        "framework": "ARKit",
+        "platform": "iOS 8.0+, macOS 10.8+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 3.0+, visionOS 1.0+",
+        "description": "Framework for augmented reality experiences.",
+        "primaryUseCases": "AR applications, integrating virtual objects with real world."
+    },
+    {
+        "framework": "CloudKit",
+        "platform": "iOS 8.0+, macOS 10.10+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 3.0+, visionOS 1.0+",
+        "description": "Framework for managing iCloud data storage.",
+        "primaryUseCases": "Syncing data with iCloud, sharing data between devices."
+    },
+    {
+        "framework": "HomeKit",
+        "platform": "iOS 8.0+, Mac Catalyst 14.0+, tvOS 10.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework for communication with and controlling smart home devices.",
+        "primaryUseCases": "Home automation, smart device integration."
+    },
+    {
+        "framework": "CoreMotion",
+        "platform": "iOS 4.0+, macOS 10.15+, Mac Catalyst 13.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework for accessing motion data from device sensors.",
+        "primaryUseCases": "Motion detector, fitness tracking, gesture recognition."
+    },
+    {
+        "framework": "Vision",
+        "platform": "iOS 11.0+, macOS 10.13+, Mac Catalyst 13.0+, tvOS 11.0+, visionOS 1.0+",
+        "description": "Framework for image analysis and computer vision tasks.",
+        "primaryUseCases": "Face detection, object recognition, text detection."
+    },
+    {
+        "framework": "CoreML",
+        "platform": "iOS 11.0+, macOS 10.13+, Mac Catalyst 13.0+, tvOS 11.0+, watchOS 4.0+, visionOS 1.0+",
+        "description": "Framework for integrating machine learning models into applications.",
+        "primaryUseCases": "On device machine learning, predictive modeling, data analysis."
+    },
+    {
+        "framework": "SiriKit",
+        "platform": "iOS 10.0+, macOS 12.0+, Mac Catalyst 13.0+, tvOS 14.0+, watchOS 3.2+, visionOS 1.0+",
+        "description": "Framework for integrating with Siri and adding voice interactions.",
+        "primaryUseCases": "Voice commands, Siri shortcuts, voice activated functionality."
+    },
+    {
+        "framework": "Contacts",
+        "platform": "iOS 9.0+, macOS 10.11+, Mac Catalyst 13.0+, watchOS 2.0+, visionOS 1.0+, iPadOS 9.0+",
+        "description": "Framework for managing contact information.",
+        "primaryUseCases": "Accessing and managing the user's contact."
+    },
+    {
+        "framework": "PassKit",
+        "platform": "iOS 6.0+, macOS 11.0+, Mac Catalyst 13.0+, watchOS 2.0+, visionOS 1.0+",
+        "description": "Framework for managing passes in Wallet.",
+        "primaryUseCases": "Adding and managing boarding passes, tickets, and loyalty cards."
+    },
+    {
+        "framework": "StoreKit",
+        "platform": "iOS 3.0+, macOS 10.7+, Mac Catalyst 13.0+, tvOS 9.0+, watchOS 6.2+, visionOS 1.0+",
+        "description": "Framework for in-app purchases and subscription.",
+        "primaryUseCases": "Selling  digital goods, subscriptions, and managing transactions."
     }
 ]
